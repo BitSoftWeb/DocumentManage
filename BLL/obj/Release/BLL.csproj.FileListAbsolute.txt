@@ -1,0 +1,16 @@
+G:\FineUI项目\fineUI空项目\BLL\bin\Release\BLL.dll
+G:\FineUI项目\fineUI空项目\BLL\bin\Release\BLL.pdb
+G:\FineUI项目\fineUI空项目\BLL\bin\Release\Model.dll
+G:\FineUI项目\fineUI空项目\BLL\bin\Release\SQLDAL.dll
+G:\FineUI项目\fineUI空项目\BLL\bin\Release\Common.dll
+G:\FineUI项目\fineUI空项目\BLL\bin\Release\Model.pdb
+G:\FineUI项目\fineUI空项目\BLL\bin\Release\SQLDAL.pdb
+G:\FineUI项目\fineUI空项目\BLL\bin\Release\Common.pdb
+G:\FineUI项目\fineUI空项目\BLL\obj\Release\BLL.dll
+G:\FineUI项目\fineUI空项目\BLL\obj\Release\BLL.pdb
+G:\FineUI项目\fineUI空项目\BLL\bin\Release\System.Net.Http.dll
+G:\FineUI项目\fineUI空项目\BLL\bin\Release\System.Net.Http.xml
+G:\FineUI项目\fineUI空项目\BLL\bin\Release\zh-Hans\System.Net.Http.resources.dll
+G:\FineUI项目\fineUI空项目\BLL\obj\Release\BLL.csprojAssemblyReference.cache
+G:\FineUI项目\fineUI空项目\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+G:\FineUI项目\fineUI空项目\BLL\obj\Release\BLL.csproj.CopyComplete

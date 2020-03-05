@@ -1,0 +1,10 @@
+G:\FineUI项目\fineUI空项目\Model\bin\Release\Model.dll
+G:\FineUI项目\fineUI空项目\Model\bin\Release\Model.pdb
+G:\FineUI项目\fineUI空项目\Model\obj\Release\Model.dll
+G:\FineUI项目\fineUI空项目\Model\obj\Release\Model.pdb
+G:\FineUI项目\fineUI空项目\Model\bin\Release\System.Net.Http.dll
+G:\FineUI项目\fineUI空项目\Model\bin\Release\System.Net.Http.xml
+G:\FineUI项目\fineUI空项目\Model\bin\Release\zh-Hans\System.Net.Http.resources.dll
+G:\FineUI项目\fineUI空项目\Model\obj\Release\Model.csprojAssemblyReference.cache
+G:\FineUI项目\fineUI空项目\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+G:\FineUI项目\fineUI空项目\Model\obj\Release\Model.csproj.CopyComplete

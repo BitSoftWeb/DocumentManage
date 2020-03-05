@@ -1,0 +1,14 @@
+G:\FineUI项目\fineUI空项目\SQLDAL\bin\Release\SQLDAL.dll
+G:\FineUI项目\fineUI空项目\SQLDAL\bin\Release\SQLDAL.pdb
+G:\FineUI项目\fineUI空项目\SQLDAL\bin\Release\Common.dll
+G:\FineUI项目\fineUI空项目\SQLDAL\bin\Release\Model.dll
+G:\FineUI项目\fineUI空项目\SQLDAL\bin\Release\Common.pdb
+G:\FineUI项目\fineUI空项目\SQLDAL\bin\Release\Model.pdb
+G:\FineUI项目\fineUI空项目\SQLDAL\obj\Release\SQLDAL.dll
+G:\FineUI项目\fineUI空项目\SQLDAL\obj\Release\SQLDAL.pdb
+G:\FineUI项目\fineUI空项目\SQLDAL\bin\Release\System.Net.Http.dll
+G:\FineUI项目\fineUI空项目\SQLDAL\bin\Release\System.Net.Http.xml
+G:\FineUI项目\fineUI空项目\SQLDAL\bin\Release\zh-Hans\System.Net.Http.resources.dll
+G:\FineUI项目\fineUI空项目\SQLDAL\obj\Release\SQLDAL.csprojAssemblyReference.cache
+G:\FineUI项目\fineUI空项目\SQLDAL\obj\Release\SQLDAL.csproj.CoreCompileInputs.cache
+G:\FineUI项目\fineUI空项目\SQLDAL\obj\Release\SQLDAL.csproj.CopyComplete

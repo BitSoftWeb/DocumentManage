@@ -1,0 +1,15 @@
+C:\Users\hmitr\Desktop\fineUI空项目\fineUI空项目\Common\bin\Debug\Common.dll
+C:\Users\hmitr\Desktop\fineUI空项目\fineUI空项目\Common\bin\Debug\Common.pdb
+C:\Users\hmitr\Desktop\fineUI空项目\fineUI空项目\Common\obj\Debug\Common.dll
+C:\Users\hmitr\Desktop\fineUI空项目\fineUI空项目\Common\obj\Debug\Common.pdb
+C:\Users\hmitr\Desktop\fineUI空项目\fineUI空项目\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+G:\FineUI项目\fineUI空项目\Common\bin\Debug\Common.dll
+G:\FineUI项目\fineUI空项目\Common\bin\Debug\Common.pdb
+G:\FineUI项目\fineUI空项目\Common\bin\Debug\System.Net.Http.dll
+G:\FineUI项目\fineUI空项目\Common\bin\Debug\System.Net.Http.xml
+G:\FineUI项目\fineUI空项目\Common\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+G:\FineUI项目\fineUI空项目\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+G:\FineUI项目\fineUI空项目\Common\obj\Debug\Common.csproj.CopyComplete
+G:\FineUI项目\fineUI空项目\Common\obj\Debug\Common.dll
+G:\FineUI项目\fineUI空项目\Common\obj\Debug\Common.pdb
+G:\FineUI项目\fineUI空项目\Common\obj\Debug\Common.csprojAssemblyReference.cache

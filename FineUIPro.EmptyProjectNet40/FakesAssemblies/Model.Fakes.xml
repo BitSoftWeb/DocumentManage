@@ -1,0 +1,1406 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Model.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Model.Fakes.ShimHHHH_设备文件操作记录表">
+            <summary>Model.HHHH_设备文件操作记录表 的填充码类型</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH_设备文件操作记录表.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH_设备文件操作记录表.#ctor(Model.HHHH_设备文件操作记录表)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimHHHH_设备文件操作记录表.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.AllInstances.IDGet">
+            <summary>设置 HHHH_设备文件操作记录表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.AllInstances.IDSetInt32">
+            <summary>设置 HHHH_设备文件操作记录表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.AllInstances.操作时间Get">
+            <summary>设置 HHHH_设备文件操作记录表.get_操作时间() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.AllInstances.操作时间SetString">
+            <summary>设置 HHHH_设备文件操作记录表.set_操作时间(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.AllInstances.操作类型Get">
+            <summary>设置 HHHH_设备文件操作记录表.get_操作类型() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.AllInstances.操作类型SetString">
+            <summary>设置 HHHH_设备文件操作记录表.set_操作类型(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.AllInstances.文件名Get">
+            <summary>设置 HHHH_设备文件操作记录表.get_文件名() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.AllInstances.文件名SetString">
+            <summary>设置 HHHH_设备文件操作记录表.set_文件名(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.AllInstances.用户名Get">
+            <summary>设置 HHHH_设备文件操作记录表.get_用户名() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.AllInstances.用户名SetString">
+            <summary>设置 HHHH_设备文件操作记录表.set_用户名(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.AllInstances.设备编号Get">
+            <summary>设置 HHHH_设备文件操作记录表.get_设备编号() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.AllInstances.设备编号SetString">
+            <summary>设置 HHHH_设备文件操作记录表.set_设备编号(String value) 的 填充码</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH_设备文件操作记录表.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH_设备文件操作记录表.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.Constructor">
+            <summary>设置 HHHH_设备文件操作记录表.HHHH_设备文件操作记录表() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.IDGet">
+            <summary>设置 HHHH_设备文件操作记录表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.IDSetInt32">
+            <summary>设置 HHHH_设备文件操作记录表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.操作时间Get">
+            <summary>设置 HHHH_设备文件操作记录表.get_操作时间() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.操作时间SetString">
+            <summary>设置 HHHH_设备文件操作记录表.set_操作时间(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.操作类型Get">
+            <summary>设置 HHHH_设备文件操作记录表.get_操作类型() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.操作类型SetString">
+            <summary>设置 HHHH_设备文件操作记录表.set_操作类型(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.文件名Get">
+            <summary>设置 HHHH_设备文件操作记录表.get_文件名() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.文件名SetString">
+            <summary>设置 HHHH_设备文件操作记录表.set_文件名(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.用户名Get">
+            <summary>设置 HHHH_设备文件操作记录表.get_用户名() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.用户名SetString">
+            <summary>设置 HHHH_设备文件操作记录表.set_用户名(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.设备编号Get">
+            <summary>设置 HHHH_设备文件操作记录表.get_设备编号() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH_设备文件操作记录表.设备编号SetString">
+            <summary>设置 HHHH_设备文件操作记录表.set_设备编号(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimHHHH一级表">
+            <summary>Model.HHHH一级表 的填充码类型</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH一级表.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH一级表.#ctor(Model.HHHH一级表)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimHHHH一级表.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.AllInstances.IDGet">
+            <summary>设置 HHHH一级表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.AllInstances.IDSetInt32">
+            <summary>设置 HHHH一级表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.AllInstances.备注Get">
+            <summary>设置 HHHH一级表.get_备注() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.AllInstances.备注SetString">
+            <summary>设置 HHHH一级表.set_备注(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.AllInstances.是否显示Get">
+            <summary>设置 HHHH一级表.get_是否显示() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.AllInstances.是否显示SetString">
+            <summary>设置 HHHH一级表.set_是否显示(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.AllInstances.类型Get">
+            <summary>设置 HHHH一级表.get_类型() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.AllInstances.类型SetString">
+            <summary>设置 HHHH一级表.set_类型(String value) 的 填充码</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH一级表.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH一级表.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.Constructor">
+            <summary>设置 HHHH一级表.HHHH一级表() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.IDGet">
+            <summary>设置 HHHH一级表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.IDSetInt32">
+            <summary>设置 HHHH一级表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.备注Get">
+            <summary>设置 HHHH一级表.get_备注() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.备注SetString">
+            <summary>设置 HHHH一级表.set_备注(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.是否显示Get">
+            <summary>设置 HHHH一级表.get_是否显示() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.是否显示SetString">
+            <summary>设置 HHHH一级表.set_是否显示(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.类型Get">
+            <summary>设置 HHHH一级表.get_类型() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH一级表.类型SetString">
+            <summary>设置 HHHH一级表.set_类型(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimHHHH二级表">
+            <summary>Model.HHHH二级表 的填充码类型</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH二级表.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH二级表.#ctor(Model.HHHH二级表)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimHHHH二级表.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.AllInstances.IDGet">
+            <summary>设置 HHHH二级表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.AllInstances.IDSetInt32">
+            <summary>设置 HHHH二级表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.AllInstances.SIDGet">
+            <summary>设置 HHHH二级表.get_SID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.AllInstances.SIDSetInt32">
+            <summary>设置 HHHH二级表.set_SID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.AllInstances.二级类型Get">
+            <summary>设置 HHHH二级表.get_二级类型() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.AllInstances.二级类型SetString">
+            <summary>设置 HHHH二级表.set_二级类型(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.AllInstances.是否显示Get">
+            <summary>设置 HHHH二级表.get_是否显示() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.AllInstances.是否显示SetString">
+            <summary>设置 HHHH二级表.set_是否显示(String value) 的 填充码</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH二级表.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH二级表.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.Constructor">
+            <summary>设置 HHHH二级表.HHHH二级表() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.IDGet">
+            <summary>设置 HHHH二级表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.IDSetInt32">
+            <summary>设置 HHHH二级表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.SIDGet">
+            <summary>设置 HHHH二级表.get_SID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.SIDSetInt32">
+            <summary>设置 HHHH二级表.set_SID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.二级类型Get">
+            <summary>设置 HHHH二级表.get_二级类型() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.二级类型SetString">
+            <summary>设置 HHHH二级表.set_二级类型(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.是否显示Get">
+            <summary>设置 HHHH二级表.get_是否显示() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH二级表.是否显示SetString">
+            <summary>设置 HHHH二级表.set_是否显示(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimHHHH设备_设备信息表">
+            <summary>Model.HHHH设备_设备信息表 的填充码类型</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH设备_设备信息表.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH设备_设备信息表.#ctor(Model.HHHH设备_设备信息表)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.IDGet">
+            <summary>设置 HHHH设备_设备信息表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.IDSetInt32">
+            <summary>设置 HHHH设备_设备信息表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.SAP编号Get">
+            <summary>设置 HHHH设备_设备信息表.get_SAP编号() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.SAP编号SetString">
+            <summary>设置 HHHH设备_设备信息表.set_SAP编号(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.SBIDGet">
+            <summary>设置 HHHH设备_设备信息表.get_SBID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.SBIDSetInt32">
+            <summary>设置 HHHH设备_设备信息表.set_SBID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.使用单位Get">
+            <summary>设置 HHHH设备_设备信息表.get_使用单位() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.使用单位SetInt32">
+            <summary>设置 HHHH设备_设备信息表.set_使用单位(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.分类IDGet">
+            <summary>设置 HHHH设备_设备信息表.get_分类ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.分类IDSetString">
+            <summary>设置 HHHH设备_设备信息表.set_分类ID(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.制造商Get">
+            <summary>设置 HHHH设备_设备信息表.get_制造商() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.制造商SetString">
+            <summary>设置 HHHH设备_设备信息表.set_制造商(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.厂房IDGet">
+            <summary>设置 HHHH设备_设备信息表.get_厂房ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.厂房IDSetInt32">
+            <summary>设置 HHHH设备_设备信息表.set_厂房ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.固资净值Get">
+            <summary>设置 HHHH设备_设备信息表.get_固资净值() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.固资净值SetString">
+            <summary>设置 HHHH设备_设备信息表.set_固资净值(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.固资原值Get">
+            <summary>设置 HHHH设备_设备信息表.get_固资原值() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.固资原值SetString">
+            <summary>设置 HHHH设备_设备信息表.set_固资原值(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.属性Get">
+            <summary>设置 HHHH设备_设备信息表.get_属性() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.属性SetString">
+            <summary>设置 HHHH设备_设备信息表.set_属性(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.引进Get">
+            <summary>设置 HHHH设备_设备信息表.get_引进() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.引进SetString">
+            <summary>设置 HHHH设备_设备信息表.set_引进(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.投产时间Get">
+            <summary>设置 HHHH设备_设备信息表.get_投产时间() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.投产时间SetString">
+            <summary>设置 HHHH设备_设备信息表.set_投产时间(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.数控Get">
+            <summary>设置 HHHH设备_设备信息表.get_数控() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.数控SetString">
+            <summary>设置 HHHH设备_设备信息表.set_数控(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.机械Get">
+            <summary>设置 HHHH设备_设备信息表.get_机械() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.机械SetString">
+            <summary>设置 HHHH设备_设备信息表.set_机械(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.电气Get">
+            <summary>设置 HHHH设备_设备信息表.get_电气() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.电气SetString">
+            <summary>设置 HHHH设备_设备信息表.set_电气(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.设备名称Get">
+            <summary>设置 HHHH设备_设备信息表.get_设备名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.设备名称SetString">
+            <summary>设置 HHHH设备_设备信息表.set_设备名称(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.设备型号Get">
+            <summary>设置 HHHH设备_设备信息表.get_设备型号() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.设备型号SetString">
+            <summary>设置 HHHH设备_设备信息表.set_设备型号(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.设备编号Get">
+            <summary>设置 HHHH设备_设备信息表.get_设备编号() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.设备编号SetString">
+            <summary>设置 HHHH设备_设备信息表.set_设备编号(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.设备规格Get">
+            <summary>设置 HHHH设备_设备信息表.get_设备规格() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.AllInstances.设备规格SetString">
+            <summary>设置 HHHH设备_设备信息表.set_设备规格(String value) 的 填充码</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH设备_设备信息表.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimHHHH设备_设备信息表.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.Constructor">
+            <summary>设置 HHHH设备_设备信息表.HHHH设备_设备信息表() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.IDGet">
+            <summary>设置 HHHH设备_设备信息表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.IDSetInt32">
+            <summary>设置 HHHH设备_设备信息表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.SAP编号Get">
+            <summary>设置 HHHH设备_设备信息表.get_SAP编号() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.SAP编号SetString">
+            <summary>设置 HHHH设备_设备信息表.set_SAP编号(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.SBIDGet">
+            <summary>设置 HHHH设备_设备信息表.get_SBID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.SBIDSetInt32">
+            <summary>设置 HHHH设备_设备信息表.set_SBID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.使用单位Get">
+            <summary>设置 HHHH设备_设备信息表.get_使用单位() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.使用单位SetInt32">
+            <summary>设置 HHHH设备_设备信息表.set_使用单位(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.分类IDGet">
+            <summary>设置 HHHH设备_设备信息表.get_分类ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.分类IDSetString">
+            <summary>设置 HHHH设备_设备信息表.set_分类ID(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.制造商Get">
+            <summary>设置 HHHH设备_设备信息表.get_制造商() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.制造商SetString">
+            <summary>设置 HHHH设备_设备信息表.set_制造商(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.厂房IDGet">
+            <summary>设置 HHHH设备_设备信息表.get_厂房ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.厂房IDSetInt32">
+            <summary>设置 HHHH设备_设备信息表.set_厂房ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.固资净值Get">
+            <summary>设置 HHHH设备_设备信息表.get_固资净值() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.固资净值SetString">
+            <summary>设置 HHHH设备_设备信息表.set_固资净值(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.固资原值Get">
+            <summary>设置 HHHH设备_设备信息表.get_固资原值() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.固资原值SetString">
+            <summary>设置 HHHH设备_设备信息表.set_固资原值(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.属性Get">
+            <summary>设置 HHHH设备_设备信息表.get_属性() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.属性SetString">
+            <summary>设置 HHHH设备_设备信息表.set_属性(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.引进Get">
+            <summary>设置 HHHH设备_设备信息表.get_引进() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.引进SetString">
+            <summary>设置 HHHH设备_设备信息表.set_引进(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.投产时间Get">
+            <summary>设置 HHHH设备_设备信息表.get_投产时间() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.投产时间SetString">
+            <summary>设置 HHHH设备_设备信息表.set_投产时间(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.数控Get">
+            <summary>设置 HHHH设备_设备信息表.get_数控() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.数控SetString">
+            <summary>设置 HHHH设备_设备信息表.set_数控(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.机械Get">
+            <summary>设置 HHHH设备_设备信息表.get_机械() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.机械SetString">
+            <summary>设置 HHHH设备_设备信息表.set_机械(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.电气Get">
+            <summary>设置 HHHH设备_设备信息表.get_电气() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.电气SetString">
+            <summary>设置 HHHH设备_设备信息表.set_电气(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.设备名称Get">
+            <summary>设置 HHHH设备_设备信息表.get_设备名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.设备名称SetString">
+            <summary>设置 HHHH设备_设备信息表.set_设备名称(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.设备型号Get">
+            <summary>设置 HHHH设备_设备信息表.get_设备型号() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.设备型号SetString">
+            <summary>设置 HHHH设备_设备信息表.set_设备型号(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.设备编号Get">
+            <summary>设置 HHHH设备_设备信息表.get_设备编号() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.设备编号SetString">
+            <summary>设置 HHHH设备_设备信息表.set_设备编号(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.设备规格Get">
+            <summary>设置 HHHH设备_设备信息表.get_设备规格() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimHHHH设备_设备信息表.设备规格SetString">
+            <summary>设置 HHHH设备_设备信息表.set_设备规格(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimSBZC_台账_设备文件类型表">
+            <summary>Model.SBZC_台账_设备文件类型表 的填充码类型</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimSBZC_台账_设备文件类型表.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimSBZC_台账_设备文件类型表.#ctor(Model.SBZC_台账_设备文件类型表)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimSBZC_台账_设备文件类型表.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimSBZC_台账_设备文件类型表.AllInstances.IDGet">
+            <summary>设置 SBZC_台账_设备文件类型表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimSBZC_台账_设备文件类型表.AllInstances.IDSetInt32">
+            <summary>设置 SBZC_台账_设备文件类型表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimSBZC_台账_设备文件类型表.AllInstances.设备文件类型Get">
+            <summary>设置 SBZC_台账_设备文件类型表.get_设备文件类型() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimSBZC_台账_设备文件类型表.AllInstances.设备文件类型SetString">
+            <summary>设置 SBZC_台账_设备文件类型表.set_设备文件类型(String value) 的 填充码</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimSBZC_台账_设备文件类型表.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimSBZC_台账_设备文件类型表.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimSBZC_台账_设备文件类型表.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimSBZC_台账_设备文件类型表.Constructor">
+            <summary>设置 SBZC_台账_设备文件类型表.SBZC_台账_设备文件类型表() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimSBZC_台账_设备文件类型表.IDGet">
+            <summary>设置 SBZC_台账_设备文件类型表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimSBZC_台账_设备文件类型表.IDSetInt32">
+            <summary>设置 SBZC_台账_设备文件类型表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimSBZC_台账_设备文件类型表.设备文件类型Get">
+            <summary>设置 SBZC_台账_设备文件类型表.get_设备文件类型() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimSBZC_台账_设备文件类型表.设备文件类型SetString">
+            <summary>设置 SBZC_台账_设备文件类型表.set_设备文件类型(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimZJ_设备操作规范表">
+            <summary>Model.ZJ_设备操作规范表 的填充码类型</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimZJ_设备操作规范表.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimZJ_设备操作规范表.#ctor(Model.ZJ_设备操作规范表)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimZJ_设备操作规范表.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.AllInstances.IDGet">
+            <summary>设置 ZJ_设备操作规范表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.AllInstances.IDSetInt32">
+            <summary>设置 ZJ_设备操作规范表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.AllInstances.设备操作规程Get">
+            <summary>设置 ZJ_设备操作规范表.get_设备操作规程() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.AllInstances.设备操作规程SetString">
+            <summary>设置 ZJ_设备操作规范表.set_设备操作规程(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.AllInstances.设备类型Get">
+            <summary>设置 ZJ_设备操作规范表.get_设备类型() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.AllInstances.设备类型SetString">
+            <summary>设置 ZJ_设备操作规范表.set_设备类型(String value) 的 填充码</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimZJ_设备操作规范表.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimZJ_设备操作规范表.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.Constructor">
+            <summary>设置 ZJ_设备操作规范表.ZJ_设备操作规范表() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.IDGet">
+            <summary>设置 ZJ_设备操作规范表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.IDSetInt32">
+            <summary>设置 ZJ_设备操作规范表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.设备操作规程Get">
+            <summary>设置 ZJ_设备操作规范表.get_设备操作规程() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.设备操作规程SetString">
+            <summary>设置 ZJ_设备操作规范表.set_设备操作规程(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.设备类型Get">
+            <summary>设置 ZJ_设备操作规范表.get_设备类型() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZJ_设备操作规范表.设备类型SetString">
+            <summary>设置 ZJ_设备操作规范表.set_设备类型(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimZ_一级结构表">
+            <summary>Model.Z_一级结构表 的填充码类型</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimZ_一级结构表.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimZ_一级结构表.#ctor(Model.Z_一级结构表)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimZ_一级结构表.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.AllInstances.IDGet">
+            <summary>设置 Z_一级结构表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.AllInstances.IDSetInt32">
+            <summary>设置 Z_一级结构表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.AllInstances.名称Get">
+            <summary>设置 Z_一级结构表.get_名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.AllInstances.名称SetString">
+            <summary>设置 Z_一级结构表.set_名称(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.AllInstances.程序显示名称Get">
+            <summary>设置 Z_一级结构表.get_程序显示名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.AllInstances.程序显示名称SetString">
+            <summary>设置 Z_一级结构表.set_程序显示名称(String value) 的 填充码</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimZ_一级结构表.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimZ_一级结构表.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.Constructor">
+            <summary>设置 Z_一级结构表.Z_一级结构表() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.IDGet">
+            <summary>设置 Z_一级结构表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.IDSetInt32">
+            <summary>设置 Z_一级结构表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.名称Get">
+            <summary>设置 Z_一级结构表.get_名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.名称SetString">
+            <summary>设置 Z_一级结构表.set_名称(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.程序显示名称Get">
+            <summary>设置 Z_一级结构表.get_程序显示名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_一级结构表.程序显示名称SetString">
+            <summary>设置 Z_一级结构表.set_程序显示名称(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimZ_设备类型表">
+            <summary>Model.Z_设备类型表 的填充码类型</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimZ_设备类型表.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimZ_设备类型表.#ctor(Model.Z_设备类型表)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.ShimZ_设备类型表.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_设备类型表.AllInstances.IDGet">
+            <summary>设置 Z_设备类型表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_设备类型表.AllInstances.IDSetInt32">
+            <summary>设置 Z_设备类型表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_设备类型表.AllInstances.设备类型Get">
+            <summary>设置 Z_设备类型表.get_设备类型() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_设备类型表.AllInstances.设备类型SetString">
+            <summary>设置 Z_设备类型表.set_设备类型(String value) 的 填充码</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimZ_设备类型表.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Model.Fakes.ShimZ_设备类型表.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_设备类型表.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_设备类型表.Constructor">
+            <summary>设置 Z_设备类型表.Z_设备类型表() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_设备类型表.IDGet">
+            <summary>设置 Z_设备类型表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_设备类型表.IDSetInt32">
+            <summary>设置 Z_设备类型表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_设备类型表.设备类型Get">
+            <summary>设置 Z_设备类型表.get_设备类型() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.ShimZ_设备类型表.设备类型SetString">
+            <summary>设置 Z_设备类型表.set_设备类型(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.Shim用户单位表">
+            <summary>Model.用户单位表 的填充码类型</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim用户单位表.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim用户单位表.#ctor(Model.用户单位表)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.Shim用户单位表.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.AllInstances.IDGet">
+            <summary>设置 用户单位表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.AllInstances.IDSetInt32">
+            <summary>设置 用户单位表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.AllInstances.一级结构Get">
+            <summary>设置 用户单位表.get_一级结构() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.AllInstances.一级结构SetInt32">
+            <summary>设置 用户单位表.set_一级结构(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.AllInstances.名称Get">
+            <summary>设置 用户单位表.get_名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.AllInstances.名称SetString">
+            <summary>设置 用户单位表.set_名称(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.AllInstances.成本中心Get">
+            <summary>设置 用户单位表.get_成本中心() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.AllInstances.成本中心SetString">
+            <summary>设置 用户单位表.set_成本中心(String value) 的 填充码</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim用户单位表.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim用户单位表.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.Constructor">
+            <summary>设置 用户单位表.用户单位表() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.IDGet">
+            <summary>设置 用户单位表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.IDSetInt32">
+            <summary>设置 用户单位表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.一级结构Get">
+            <summary>设置 用户单位表.get_一级结构() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.一级结构SetInt32">
+            <summary>设置 用户单位表.set_一级结构(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.名称Get">
+            <summary>设置 用户单位表.get_名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.名称SetString">
+            <summary>设置 用户单位表.set_名称(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.成本中心Get">
+            <summary>设置 用户单位表.get_成本中心() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户单位表.成本中心SetString">
+            <summary>设置 用户单位表.set_成本中心(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.Shim用户表">
+            <summary>Model.用户表 的填充码类型</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim用户表.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim用户表.#ctor(Model.用户表)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.Shim用户表.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.IDGet">
+            <summary>设置 用户表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.IDSetInt32">
+            <summary>设置 用户表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.姓名Get">
+            <summary>设置 用户表.get_姓名() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.姓名SetString">
+            <summary>设置 用户表.set_姓名(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.学校IDGet">
+            <summary>设置 用户表.get_学校ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.学校IDSetInt32">
+            <summary>设置 用户表.set_学校ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.学校名称Get">
+            <summary>设置 用户表.get_学校名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.学校名称SetString">
+            <summary>设置 用户表.set_学校名称(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.密码Get">
+            <summary>设置 用户表.get_密码() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.密码SetString">
+            <summary>设置 用户表.set_密码(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.权限Get">
+            <summary>设置 用户表.get_权限() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.权限SetInt32">
+            <summary>设置 用户表.set_权限(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.用户名Get">
+            <summary>设置 用户表.get_用户名() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.用户名SetString">
+            <summary>设置 用户表.set_用户名(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.电话号码Get">
+            <summary>设置 用户表.get_电话号码() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.电话号码SetString">
+            <summary>设置 用户表.set_电话号码(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.身份证号Get">
+            <summary>设置 用户表.get_身份证号() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.身份证号SetString">
+            <summary>设置 用户表.set_身份证号(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.部门Get">
+            <summary>设置 用户表.get_部门() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.部门IDGet">
+            <summary>设置 用户表.get_部门ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.部门IDSetInt32">
+            <summary>设置 用户表.set_部门ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.AllInstances.部门SetString">
+            <summary>设置 用户表.set_部门(String value) 的 填充码</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim用户表.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim用户表.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.Constructor">
+            <summary>设置 用户表.用户表() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.IDGet">
+            <summary>设置 用户表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.IDSetInt32">
+            <summary>设置 用户表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.姓名Get">
+            <summary>设置 用户表.get_姓名() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.姓名SetString">
+            <summary>设置 用户表.set_姓名(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.学校IDGet">
+            <summary>设置 用户表.get_学校ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.学校IDSetInt32">
+            <summary>设置 用户表.set_学校ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.学校名称Get">
+            <summary>设置 用户表.get_学校名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.学校名称SetString">
+            <summary>设置 用户表.set_学校名称(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.密码Get">
+            <summary>设置 用户表.get_密码() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.密码SetString">
+            <summary>设置 用户表.set_密码(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.权限Get">
+            <summary>设置 用户表.get_权限() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.权限SetInt32">
+            <summary>设置 用户表.set_权限(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.用户名Get">
+            <summary>设置 用户表.get_用户名() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.用户名SetString">
+            <summary>设置 用户表.set_用户名(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.电话号码Get">
+            <summary>设置 用户表.get_电话号码() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.电话号码SetString">
+            <summary>设置 用户表.set_电话号码(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.身份证号Get">
+            <summary>设置 用户表.get_身份证号() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.身份证号SetString">
+            <summary>设置 用户表.set_身份证号(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.部门Get">
+            <summary>设置 用户表.get_部门() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.部门IDGet">
+            <summary>设置 用户表.get_部门ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.部门IDSetInt32">
+            <summary>设置 用户表.set_部门ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户表.部门SetString">
+            <summary>设置 用户表.set_部门(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.Shim用户读写权限表">
+            <summary>Model.用户读写权限表 的填充码类型</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim用户读写权限表.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim用户读写权限表.#ctor(Model.用户读写权限表)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.Shim用户读写权限表.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户读写权限表.AllInstances.IDGet">
+            <summary>设置 用户读写权限表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户读写权限表.AllInstances.IDSetInt32">
+            <summary>设置 用户读写权限表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户读写权限表.AllInstances.名称Get">
+            <summary>设置 用户读写权限表.get_名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户读写权限表.AllInstances.名称SetString">
+            <summary>设置 用户读写权限表.set_名称(String value) 的 填充码</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim用户读写权限表.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim用户读写权限表.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户读写权限表.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户读写权限表.Constructor">
+            <summary>设置 用户读写权限表.用户读写权限表() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户读写权限表.IDGet">
+            <summary>设置 用户读写权限表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户读写权限表.IDSetInt32">
+            <summary>设置 用户读写权限表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户读写权限表.名称Get">
+            <summary>设置 用户读写权限表.get_名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim用户读写权限表.名称SetString">
+            <summary>设置 用户读写权限表.set_名称(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.Shim设备图片上传表">
+            <summary>Model.设备图片上传表 的填充码类型</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim设备图片上传表.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim设备图片上传表.#ctor(Model.设备图片上传表)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.Shim设备图片上传表.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.IDGet">
+            <summary>设置 设备图片上传表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.IDSetInt32">
+            <summary>设置 设备图片上传表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.上传时间Get">
+            <summary>设置 设备图片上传表.get_上传时间() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.上传时间SetString">
+            <summary>设置 设备图片上传表.set_上传时间(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.上传状态Get">
+            <summary>设置 设备图片上传表.get_上传状态() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.上传状态SetString">
+            <summary>设置 设备图片上传表.set_上传状态(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.上传路径Get">
+            <summary>设置 设备图片上传表.get_上传路径() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.上传路径SetString">
+            <summary>设置 设备图片上传表.set_上传路径(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.文件名Get">
+            <summary>设置 设备图片上传表.get_文件名() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.文件名SetString">
+            <summary>设置 设备图片上传表.set_文件名(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.文件后缀Get">
+            <summary>设置 设备图片上传表.get_文件后缀() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.文件后缀SetString">
+            <summary>设置 设备图片上传表.set_文件后缀(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.设备编号Get">
+            <summary>设置 设备图片上传表.get_设备编号() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.AllInstances.设备编号SetString">
+            <summary>设置 设备图片上传表.set_设备编号(String value) 的 填充码</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim设备图片上传表.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim设备图片上传表.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.Constructor">
+            <summary>设置 设备图片上传表.设备图片上传表() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.IDGet">
+            <summary>设置 设备图片上传表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.IDSetInt32">
+            <summary>设置 设备图片上传表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.上传时间Get">
+            <summary>设置 设备图片上传表.get_上传时间() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.上传时间SetString">
+            <summary>设置 设备图片上传表.set_上传时间(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.上传状态Get">
+            <summary>设置 设备图片上传表.get_上传状态() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.上传状态SetString">
+            <summary>设置 设备图片上传表.set_上传状态(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.上传路径Get">
+            <summary>设置 设备图片上传表.get_上传路径() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.上传路径SetString">
+            <summary>设置 设备图片上传表.set_上传路径(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.文件名Get">
+            <summary>设置 设备图片上传表.get_文件名() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.文件名SetString">
+            <summary>设置 设备图片上传表.set_文件名(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.文件后缀Get">
+            <summary>设置 设备图片上传表.get_文件后缀() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.文件后缀SetString">
+            <summary>设置 设备图片上传表.set_文件后缀(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.设备编号Get">
+            <summary>设置 设备图片上传表.get_设备编号() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim设备图片上传表.设备编号SetString">
+            <summary>设置 设备图片上传表.set_设备编号(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.Shim部门表">
+            <summary>Model.部门表 的填充码类型</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim部门表.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim部门表.#ctor(Model.部门表)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.Shim部门表.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.AllInstances.IDGet">
+            <summary>设置 部门表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.AllInstances.IDSetInt32">
+            <summary>设置 部门表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.AllInstances.名称Get">
+            <summary>设置 部门表.get_名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.AllInstances.名称SetString">
+            <summary>设置 部门表.set_名称(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.AllInstances.成本中心Get">
+            <summary>设置 部门表.get_成本中心() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.AllInstances.成本中心SetString">
+            <summary>设置 部门表.set_成本中心(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.AllInstances.所属单位Get">
+            <summary>设置 部门表.get_所属单位() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.AllInstances.所属单位SetInt32">
+            <summary>设置 部门表.set_所属单位(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim部门表.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Model.Fakes.Shim部门表.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.Constructor">
+            <summary>设置 部门表.部门表() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.IDGet">
+            <summary>设置 部门表.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.IDSetInt32">
+            <summary>设置 部门表.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.名称Get">
+            <summary>设置 部门表.get_名称() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.名称SetString">
+            <summary>设置 部门表.set_名称(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.成本中心Get">
+            <summary>设置 部门表.get_成本中心() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.成本中心SetString">
+            <summary>设置 部门表.set_成本中心(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.所属单位Get">
+            <summary>设置 部门表.get_所属单位() 的 填充码</summary>
+        </member>
+        <member name="P:Model.Fakes.Shim部门表.所属单位SetInt32">
+            <summary>设置 部门表.set_所属单位(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Model.Fakes.StubHHHH_设备文件操作记录表">
+            <summary>Model.HHHH_设备文件操作记录表 的存根类型</summary>
+        </member>
+        <member name="M:Model.Fakes.StubHHHH_设备文件操作记录表.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubHHHH_设备文件操作记录表.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Model.Fakes.StubHHHH_设备文件操作记录表.InitializeStub">
+            <summary>初始化 type StubHHHH_设备文件操作记录表 的新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubHHHH_设备文件操作记录表.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Model.Fakes.StubHHHH_设备文件操作记录表.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Model.Fakes.StubHHHH一级表">
+            <summary>Model.HHHH一级表 的存根类型</summary>
+        </member>
+        <member name="M:Model.Fakes.StubHHHH一级表.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubHHHH一级表.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Model.Fakes.StubHHHH一级表.InitializeStub">
+            <summary>初始化 type StubHHHH一级表 的新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubHHHH一级表.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Model.Fakes.StubHHHH一级表.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Model.Fakes.StubHHHH二级表">
+            <summary>Model.HHHH二级表 的存根类型</summary>
+        </member>
+        <member name="M:Model.Fakes.StubHHHH二级表.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubHHHH二级表.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Model.Fakes.StubHHHH二级表.InitializeStub">
+            <summary>初始化 type StubHHHH二级表 的新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubHHHH二级表.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Model.Fakes.StubHHHH二级表.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Model.Fakes.StubHHHH设备_设备信息表">
+            <summary>Model.HHHH设备_设备信息表 的存根类型</summary>
+        </member>
+        <member name="M:Model.Fakes.StubHHHH设备_设备信息表.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubHHHH设备_设备信息表.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Model.Fakes.StubHHHH设备_设备信息表.InitializeStub">
+            <summary>初始化 type StubHHHH设备_设备信息表 的新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubHHHH设备_设备信息表.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Model.Fakes.StubHHHH设备_设备信息表.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Model.Fakes.StubSBZC_台账_设备文件类型表">
+            <summary>Model.SBZC_台账_设备文件类型表 的存根类型</summary>
+        </member>
+        <member name="M:Model.Fakes.StubSBZC_台账_设备文件类型表.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubSBZC_台账_设备文件类型表.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Model.Fakes.StubSBZC_台账_设备文件类型表.InitializeStub">
+            <summary>初始化 type StubSBZC_台账_设备文件类型表 的新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubSBZC_台账_设备文件类型表.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Model.Fakes.StubSBZC_台账_设备文件类型表.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Model.Fakes.StubZJ_设备操作规范表">
+            <summary>Model.ZJ_设备操作规范表 的存根类型</summary>
+        </member>
+        <member name="M:Model.Fakes.StubZJ_设备操作规范表.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubZJ_设备操作规范表.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Model.Fakes.StubZJ_设备操作规范表.InitializeStub">
+            <summary>初始化 type StubZJ_设备操作规范表 的新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubZJ_设备操作规范表.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Model.Fakes.StubZJ_设备操作规范表.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Model.Fakes.StubZ_一级结构表">
+            <summary>Model.Z_一级结构表 的存根类型</summary>
+        </member>
+        <member name="M:Model.Fakes.StubZ_一级结构表.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubZ_一级结构表.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Model.Fakes.StubZ_一级结构表.InitializeStub">
+            <summary>初始化 type StubZ_一级结构表 的新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubZ_一级结构表.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Model.Fakes.StubZ_一级结构表.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Model.Fakes.StubZ_设备类型表">
+            <summary>Model.Z_设备类型表 的存根类型</summary>
+        </member>
+        <member name="M:Model.Fakes.StubZ_设备类型表.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubZ_设备类型表.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Model.Fakes.StubZ_设备类型表.InitializeStub">
+            <summary>初始化 type StubZ_设备类型表 的新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.StubZ_设备类型表.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Model.Fakes.StubZ_设备类型表.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Model.Fakes.Stub用户单位表">
+            <summary>Model.用户单位表 的存根类型</summary>
+        </member>
+        <member name="M:Model.Fakes.Stub用户单位表.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub用户单位表.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Model.Fakes.Stub用户单位表.InitializeStub">
+            <summary>初始化 type Stub用户单位表 的新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub用户单位表.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub用户单位表.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Model.Fakes.Stub用户表">
+            <summary>Model.用户表 的存根类型</summary>
+        </member>
+        <member name="M:Model.Fakes.Stub用户表.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub用户表.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Model.Fakes.Stub用户表.InitializeStub">
+            <summary>初始化 type Stub用户表 的新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub用户表.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub用户表.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Model.Fakes.Stub用户读写权限表">
+            <summary>Model.用户读写权限表 的存根类型</summary>
+        </member>
+        <member name="M:Model.Fakes.Stub用户读写权限表.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub用户读写权限表.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Model.Fakes.Stub用户读写权限表.InitializeStub">
+            <summary>初始化 type Stub用户读写权限表 的新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub用户读写权限表.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub用户读写权限表.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Model.Fakes.Stub设备图片上传表">
+            <summary>Model.设备图片上传表 的存根类型</summary>
+        </member>
+        <member name="M:Model.Fakes.Stub设备图片上传表.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub设备图片上传表.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Model.Fakes.Stub设备图片上传表.InitializeStub">
+            <summary>初始化 type Stub设备图片上传表 的新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub设备图片上传表.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub设备图片上传表.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Model.Fakes.Stub部门表">
+            <summary>Model.部门表 的存根类型</summary>
+        </member>
+        <member name="M:Model.Fakes.Stub部门表.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub部门表.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Model.Fakes.Stub部门表.InitializeStub">
+            <summary>初始化 type Stub部门表 的新实例</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub部门表.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Model.Fakes.Stub部门表.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>

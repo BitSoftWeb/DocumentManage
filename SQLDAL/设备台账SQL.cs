@@ -149,7 +149,7 @@ namespace SQLDAL
                 StringBuilder sb = new StringBuilder();
 
                 sb.Append(" SELECT A.*,B.类型,C.二级类型 FROM    ");
-                sb.Append(" AC_设备信息表 as A,AC_设备类型二级表 as C,AC_设备类型一级表 as B where   B.ID = C.SID and C.ID= A.分类ID ");
+                sb.Append(" 设备_设备信息表 as A,AC_设备类型二级表 as C,AC_设备类型一级表 as B where   B.ID = C.SID and C.ID= A.分类ID ");
                 
                 if (rank == "二级")
                 {
@@ -332,7 +332,7 @@ namespace SQLDAL
 
         public DataSet 模糊查询设备信息(string str)
         {
-            string sql = string.Format("   SELECT 设备编号,设备名称,设备型号 from AC_设备信息表  where (设备编号 like '%{0}%' or 设备名称 like '%{0}%') ", str);
+            string sql = string.Format("   SELECT 设备编号,设备名称,设备型号 from 设备_设备信息表  where (设备编号 like '%{0}%' or 设备名称 like '%{0}%') ", str);
             return DBHelper.ExecuteDataset(DBHelper.ConnectionString, CommandType.Text, sql);
         }
 
@@ -459,7 +459,7 @@ namespace SQLDAL
         {
 
             StringBuilder sb = new StringBuilder();
-            sb.Append("select ID,SBID,SAP编号,设备编号,设备名称,设备型号,固资原值,制造商,投产时间,使用单位,厂房ID,机械,电气,属性,引进,数控,设备规格,固资净值,分类ID from AC_设备信息表");
+            sb.Append("select ID,SBID,SAP编号,设备编号,设备名称,设备型号,固资原值,制造商,投产时间,使用单位,厂房ID,机械,电气,属性,引进,数控,设备规格,固资净值,分类ID from 设备_设备信息表");
             //sb.Append(" where 设备编号='" + intlist[0] + "'");
             sb.Append("  where  (");
             sb.Append(" ID =" + intlist[0]);

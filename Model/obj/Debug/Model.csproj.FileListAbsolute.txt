@@ -12,3 +12,8 @@ G:\FineUI项目\fineUI空项目\Model\obj\Debug\Model.csprojAssemblyReference.ca
 G:\FineUI项目\fineUI空项目\Model\obj\Debug\Model.csproj.CopyComplete
 G:\FineUI项目\fineUI空项目\Model\obj\Debug\Model.dll
 G:\FineUI项目\fineUI空项目\Model\obj\Debug\Model.pdb
+G:\DocumentManage\Model\bin\Debug\Model.dll
+G:\DocumentManage\Model\bin\Debug\Model.pdb
+G:\DocumentManage\Model\obj\Debug\Model.csprojAssemblyReference.cache
+G:\DocumentManage\Model\obj\Debug\Model.dll
+G:\DocumentManage\Model\obj\Debug\Model.pdb

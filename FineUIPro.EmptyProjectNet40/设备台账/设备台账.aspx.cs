@@ -6,10 +6,13 @@ using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.Http;
+
 
 namespace FineUIPro.EmptyProjectNet40.设备台账
 {
@@ -159,7 +162,7 @@ namespace FineUIPro.EmptyProjectNet40.设备台账
                 
                 //Grid1.DataBind();
             }
-
+                
         }
 
         //上传图片功能
@@ -169,13 +172,99 @@ namespace FineUIPro.EmptyProjectNet40.设备台账
 
             //string name = upFile.FileName.ToString();
             string fileName = upFile.ShortFileName;
+            string[] arr = fileName.Split('.');
+            string aaaname = arr[0];
+            #region
+
+            //HttpWebRequest req = WebRequest.Create("https://114.115.220.70:8011/DocumentManage/") as HttpWebRequest;
+            //req.Method = "POST";
+            //req.Timeout = 3600000;
+            //string boundary = DateTime.Now.Ticks.ToString("X");
+            //req.ContentType = "multipart/form-data;charset=utf-8;boundary=" + boundary;
+            //byte[] itemBoundaryBytes = Encoding.UTF8.GetBytes("\r\n--" + boundary + "\r\n");
+            //byte[] endBoundaryBytes = Encoding.UTF8.GetBytes("\r\n--" + boundary + "--\r\n");
+
+            ////int pos = fi.LastIndexOf("\\");
+            ////string fileName = fi.Substring(pos + 1);
+
+            ////请求头部信息 
+            //StringBuilder sbHeader = new StringBuilder();
+            //sbHeader.Append(string.Format("Content-Disposition:form-data;name=\"filepath\"\r\n\r\n{0}", "DocumentManage/"));
+            //sbHeader.Append(Encoding.UTF8.GetString(itemBoundaryBytes));
+            //sbHeader.Append(string.Format("Content-Disposition:form-data;name=\"file\";filename=\"{0}\"\r\nContent-Type:application/octet-stream\r\n\r\n", fileName));
+            //byte[] postHeaderBytes = Encoding.UTF8.GetBytes(sbHeader.ToString());
+            ////FileStream fs = new FileStream("DocumentManage/", FileMode.Open, FileAccess.Read);
+            //HTTPHelper.SetCertificatePolicy();
+            //Stream fileStream = upFile.PostedFile.InputStream;
+            //byte[] bArr = new byte[fileStream.Length];
+            //fileStream.Read(bArr, 0, bArr.Length);
+            //fileStream.Close();
+
+            //Stream postStream = req.GetRequestStream();
+            //postStream.Write(itemBoundaryBytes, 0, itemBoundaryBytes.Length);
+            //postStream.Write(postHeaderBytes, 0, postHeaderBytes.Length);
+            //postStream.Write(bArr, 0, bArr.Length);
+            //postStream.Write(endBoundaryBytes, 0, endBoundaryBytes.Length);
+            //postStream.Close();
+
+            //HttpWebResponse response = req.GetResponse() as HttpWebResponse;
+
+            ////直到request.GetResponse()程序才开始向目标网页发送Post请求
+            //Stream instream = response.GetResponseStream();
+            //StreamReader sr = new StreamReader(instream, Encoding.UTF8);
+
+            //0307传到项目本地
+            Stream fileStream = upFile.PostedFile.InputStream;
+            int length = upFile.PostedFile.ContentLength;
+            byte[] Date = new byte[length];
+            fileStream.Read(Date, 0, length);
+
+
+            HTTPHelper.SetCertificatePolicy();
+            HttpWebRequest request2 = WebRequest.Create("https://114.115.220.70:8011/DocumentManage/") as HttpWebRequest;
+            CookieContainer cookieContainer = new CookieContainer();
+            request2.CookieContainer = cookieContainer;
+            request2.AllowAutoRedirect = true;
+            //request2.Method = "POST";
+            request2.Method = "GET";
+            string boundary = DateTime.Now.Ticks.ToString("X");
+            request2.ContentType = "multipart/form-data;charset=utf-8;boundary=" + boundary;
+
+            byte[] itemBoundaryBytes = Encoding.UTF8.GetBytes("\r\n--" + boundary + "\r\n");
+            byte[] endBoundaryBytes = Encoding.UTF8.GetBytes("\r\n--" + boundary + "\r\n");
+            
+            Stream postStream = request2.GetRequestStream();
+            postStream.Write(itemBoundaryBytes, 0, itemBoundaryBytes.Length);
+            //写入文件 string.Format("Content-Disposition:form-data;name=\"{0}\";fileName=\"{1}"\r\nContent - Type:application / octet - Stream\r\n\r\n",filename,filename+"."+fileType)
+            //Content-Disposition:form-data;name=\"+filename+\";filename=\"+filename+"\r\n Content-Tppe:application/octet-stream \r\n \r\n
+
+            StringBuilder sbHeader = new StringBuilder(string.Format("Content-Disposition:form-data;name=" + aaaname + ";filename=" + fileName + "\r\n; Content-Tppe:application/octet-stream \r\n\r\n"));
+            byte[] postHeaderBytes = Encoding.UTF8.GetBytes(sbHeader.ToString());
+
+            postStream.Write(postHeaderBytes, 0, postHeaderBytes.Length);
+            postStream.Write(Date, 0, Date.Length);
+            postStream.Write(itemBoundaryBytes, 0, itemBoundaryBytes.Length);
+            postStream.Write(endBoundaryBytes, 0, endBoundaryBytes.Length);
+            postStream.Close();
+            //发送请求并获相应回应数据
+            HttpWebResponse response2 = request2.GetResponse() as HttpWebResponse;
+            //直到requestGetResponse（）程序开始向目标发送post请求
+            Stream instream = response2.GetResponseStream();
+            StreamReader sr = new StreamReader(instream, Encoding.UTF8);
+            //返回结果网页代码
+            string content = sr.ReadToEnd();
+
+
+            #endregion
+
+            //Array[] files = upFile.FileName.Split('.');
             string oldName = fileName;
             fileName = fileName.Replace(":", "_").Replace(" ", "_").Replace("\\", "_").Replace("/", "_");
             fileName = DateTime.Now.Ticks.ToString() + "_" + fileName;
             string url = ResolveUrl(imgPhoto.ImageUrl);
             int star = url.LastIndexOf("/");
             string name = url.Substring(star + 1);//文件名
-            //if (upFile.HasFile)
+            
             //判断是否还有文件
             if (name != "")
             {
@@ -191,10 +280,10 @@ namespace FineUIPro.EmptyProjectNet40.设备台账
                     upFile.Reset();
                     return;
                 }
-                //限制文件格式houzhuiming == ".jpg" || houzhuiming == ".jpeg" || houzhuiming == ".png" || houzhuiming == ".gif" || houzhuiming == ".bmp"
+               
                 if (!".doc.docx.xls.xlsx.ppt.pdf.txt.jpg.jpeg.png.gif.bmp".Contains(extension))
                 {
-                    //Response.Write("<script>alert('不支持的文件格式！');</script>");
+                  
                     Alert.Show("不支持的文件格式！");
                     upFile.Reset();
                     return;
@@ -211,7 +300,7 @@ namespace FineUIPro.EmptyProjectNet40.设备台账
                 //this.upFile.SaveAs(fullPathNew);
 
                 //准备上传文件
-                Stream fileStream = null;
+                //Stream fileStream = null;
                 try
                 {
                     if (".jpg.jpeg.png.gif.bmp".Contains(extension))
@@ -221,16 +310,14 @@ namespace FineUIPro.EmptyProjectNet40.设备台账
                     fileStream = upFile.PostedFile.InputStream;//读取本地文件流
                     string newfile = fileName;
 
+                    //HTTPHelper.setFilesToHttpWebServer("", "", "", "");
                     var b = FtpWeb.Upload(ftpURI, newfile, fileLength, fileStream, out errorMsg);//开始上传
                     if (b == true)
                     {
                         string newrul = fileName;//文件名
-                        //DateTime dt = DateTime.Now;
-                        //string Y = dt.Year.ToString();
-                        //string M = dt.Month.ToString();
-                        //string D = dt.Day.ToString();
+
                         string time = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");//时间
-                        
+
                         int di = url.LastIndexOf(".");
 
                         string didi = url.Substring(di + 1);//扩展文件名
@@ -247,7 +334,7 @@ namespace FineUIPro.EmptyProjectNet40.设备台账
                         上传文件_BLL bll = new 上传文件_BLL();
                         int xx = bll.图片上传(model);
                         if (xx >= 1)
-                        {                       
+                        {
                             if (xx == 1)
                             {
 
@@ -257,8 +344,8 @@ namespace FineUIPro.EmptyProjectNet40.设备台账
                                 modela.操作类型 = record;
                                 modela.文件名 = oldName;
                                 modela.操作时间 = time;
-                                modela.设备编号= Grid1.SelectedRow.Values[4].ToString();
-                                DataSet ds= wjczbll.插入设备文件操作记录(modela);
+                                modela.设备编号 = Grid1.SelectedRow.Values[4].ToString();
+                                DataSet ds = wjczbll.插入设备文件操作记录(modela);
                             }
                             else if (xx == 2)
                             {
@@ -270,7 +357,7 @@ namespace FineUIPro.EmptyProjectNet40.设备台账
                                 modela.操作时间 = time;
                                 modela.设备编号 = Grid1.SelectedRow.Values[4].ToString();
                                 DataSet dsc = wjczbll.插入设备文件操作记录(modela);
-                            }                          
+                            }
                             window3.Hidden = true;
                             upFile.Reset();
                             Alert.Show("上传成功!", MessageBoxIcon.Success);
@@ -284,7 +371,7 @@ namespace FineUIPro.EmptyProjectNet40.设备台账
                     }
                     else
                     {
-                        Alert.Show("无法连接到远程服务器！！！",MessageBoxIcon.Warning);
+                        Alert.Show("无法连接到远程服务器！！！", MessageBoxIcon.Warning);
                     }
                     #region
                     //if (b)

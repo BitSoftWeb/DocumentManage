@@ -23,14 +23,20 @@ namespace Common
     public class FtpWeb
     {
         //public static string ftpHost = " ftp://127.0.0.1:21/";//FTP的ip地址或域名 
-        public static string ftpHost = " ftp://192.168.1.130:26/";//FTP的ip地址或域名 
-        public static string ftpUserID = "";//ftp账号
-        public static string ftpPassword = "";//ftp密码
+        //public static string ftpHost = " ftp://192.168.1.130:26/";//FTP的ip地址或域名 
+        //public static string ftpUserID = "";//ftp账号
+        //public static string ftpPassword = "";//ftp密码
 
 
         //public static string ftpHost = "ftp://192.168.1.7:2121/";//FTP的ip地址或域名 
         //public static string ftpUserID = "administrator";//ftp账号
         //public static string ftpPassword = "BITsoft123";//ftp密码
+
+        public static string ftpHost = " ftp://192.168.0.202:26/";//FTP的ip地址或域名 
+        public static string ftpUserID = "administrator";//ftp账号
+        public static string ftpPassword = "Bitsoft123";//ftp密码
+
+
 
         /// <summary>
         /// 上传

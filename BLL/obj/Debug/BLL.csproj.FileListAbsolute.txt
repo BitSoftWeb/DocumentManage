@@ -24,3 +24,15 @@ G:\FineUI项目\fineUI空项目\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
 G:\FineUI项目\fineUI空项目\BLL\obj\Debug\BLL.csproj.CopyComplete
 G:\FineUI项目\fineUI空项目\BLL\obj\Debug\BLL.dll
 G:\FineUI项目\fineUI空项目\BLL\obj\Debug\BLL.pdb
+G:\DocumentManage\BLL\bin\Debug\BLL.dll
+G:\DocumentManage\BLL\bin\Debug\BLL.pdb
+G:\DocumentManage\BLL\bin\Debug\Model.dll
+G:\DocumentManage\BLL\bin\Debug\SQLDAL.dll
+G:\DocumentManage\BLL\bin\Debug\Common.dll
+G:\DocumentManage\BLL\bin\Debug\Model.pdb
+G:\DocumentManage\BLL\bin\Debug\SQLDAL.pdb
+G:\DocumentManage\BLL\bin\Debug\Common.pdb
+G:\DocumentManage\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+G:\DocumentManage\BLL\obj\Debug\BLL.csproj.CopyComplete
+G:\DocumentManage\BLL\obj\Debug\BLL.dll
+G:\DocumentManage\BLL\obj\Debug\BLL.pdb

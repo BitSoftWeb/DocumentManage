@@ -20,3 +20,13 @@ G:\FineUI项目\fineUI空项目\SQLDAL\obj\Debug\SQLDAL.csprojAssemblyReference.
 G:\FineUI项目\fineUI空项目\SQLDAL\obj\Debug\SQLDAL.csproj.CopyComplete
 G:\FineUI项目\fineUI空项目\SQLDAL\obj\Debug\SQLDAL.dll
 G:\FineUI项目\fineUI空项目\SQLDAL\obj\Debug\SQLDAL.pdb
+G:\DocumentManage\SQLDAL\bin\Debug\SQLDAL.dll
+G:\DocumentManage\SQLDAL\bin\Debug\SQLDAL.pdb
+G:\DocumentManage\SQLDAL\bin\Debug\Common.dll
+G:\DocumentManage\SQLDAL\bin\Debug\Model.dll
+G:\DocumentManage\SQLDAL\bin\Debug\Common.pdb
+G:\DocumentManage\SQLDAL\bin\Debug\Model.pdb
+G:\DocumentManage\SQLDAL\obj\Debug\SQLDAL.csprojAssemblyReference.cache
+G:\DocumentManage\SQLDAL\obj\Debug\SQLDAL.csproj.CopyComplete
+G:\DocumentManage\SQLDAL\obj\Debug\SQLDAL.dll
+G:\DocumentManage\SQLDAL\obj\Debug\SQLDAL.pdb

@@ -8,7 +8,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
-    <ProjectGuid>fd0649c2-517b-4a6d-a6ac-5e2d62c788df</ProjectGuid>
+    <ProjectGuid>e3c32fc4-b386-4021-bf7f-390058619ccf</ProjectGuid>
     <!-- update GUID here -->
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -51,40 +51,40 @@
       <Aliases>mqttf</Aliases>
     </Reference>
     <Reference Include="Model">
-      <HintPath>G:\FineUI项目\fineUI空项目\Model\bin\Debug\Model.dll</HintPath>
+      <HintPath>G:\DocumentManage\Model\bin\Debug\Model.dll</HintPath>
       <Aliases>m</Aliases>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="BLL">
-      <HintPath>G:\FineUI项目\fineUI空项目\BLL\bin\Debug\BLL.dll</HintPath>
+      <HintPath>G:\DocumentManage\BLL\bin\Debug\BLL.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Common">
-      <HintPath>G:\FineUI项目\fineUI空项目\Common\bin\Debug\Common.dll</HintPath>
+      <HintPath>G:\DocumentManage\Common\bin\Debug\Common.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="FineUIPro">
-      <HintPath>G:\FineUI项目\fineUI空项目\FineUIPro.EmptyProjectNet40\bin\FineUIPro.dll</HintPath>
+      <HintPath>G:\DocumentManage\FineUIPro.EmptyProjectNet40\bin\FineUIPro.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Excel">
-      <HintPath>D:\vs 2013\Visual Studio Tools for Office\PIA\Office15\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.PowerPoint">
-      <HintPath>D:\vs 2013\Visual Studio Tools for Office\PIA\Office15\Microsoft.Office.Interop.PowerPoint.dll</HintPath>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Office.Interop.PowerPoint\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.PowerPoint.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Word">
-      <HintPath>D:\vs 2013\Visual Studio Tools for Office\PIA\Office15\Microsoft.Office.Interop.Word.dll</HintPath>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Office.Interop.Word\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Word.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>G:\FineUI项目\fineUI空项目\Newtonsoft.Json\Net40\Newtonsoft.Json.dll</HintPath>
+      <HintPath>G:\DocumentManage\Newtonsoft.Json\Net40\Newtonsoft.Json.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="SQLDAL">
-      <HintPath>G:\FineUI项目\fineUI空项目\SQLDAL\bin\Debug\SQLDAL.dll</HintPath>
+      <HintPath>G:\DocumentManage\SQLDAL\bin\Debug\SQLDAL.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System.Configuration">

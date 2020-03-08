@@ -225,8 +225,8 @@ namespace FineUIPro.EmptyProjectNet40.设备台账
             CookieContainer cookieContainer = new CookieContainer();
             request2.CookieContainer = cookieContainer;
             request2.AllowAutoRedirect = true;
-            //request2.Method = "POST";
-            request2.Method = "GET";
+            request2.Method = "POST";
+            //request2.Method = "GET";
             string boundary = DateTime.Now.Ticks.ToString("X");
             request2.ContentType = "multipart/form-data;charset=utf-8;boundary=" + boundary;
 
@@ -257,158 +257,158 @@ namespace FineUIPro.EmptyProjectNet40.设备台账
 
             #endregion
 
-            //Array[] files = upFile.FileName.Split('.');
-            string oldName = fileName;
-            fileName = fileName.Replace(":", "_").Replace(" ", "_").Replace("\\", "_").Replace("/", "_");
-            fileName = DateTime.Now.Ticks.ToString() + "_" + fileName;
-            string url = ResolveUrl(imgPhoto.ImageUrl);
-            int star = url.LastIndexOf("/");
-            string name = url.Substring(star + 1);//文件名
+           
+            //string oldName = fileName;
+            //fileName = fileName.Replace(":", "_").Replace(" ", "_").Replace("\\", "_").Replace("/", "_");
+            //fileName = DateTime.Now.Ticks.ToString() + "_" + fileName;
+            //string url = ResolveUrl(imgPhoto.ImageUrl);
+            //int star = url.LastIndexOf("/");
+            //string name = url.Substring(star + 1);//文件名
             
-            //判断是否还有文件
-            if (name != "")
-            {
-                int fileLength = upFile.PostedFile.ContentLength;//文件大小，单位byte
-                //string fileName = Path.GetFileName(upFile.PostedFile.FileName);//文件名称
-                //string newFileName = GetNewFileName(fileName);//新文件名
-                string extension = Path.GetExtension(upFile.PostedFile.FileName).ToLower();//文件扩展名
-                //限制上传文件最大不能超过500M  
-                if (!(fileLength < 512 * 1024 * 1024))
-                {
-                    //Response.Write("<script>alert('文件最大不能超过500M！');</script>");
-                    Alert.Show("文件最大不能超过500M！");
-                    upFile.Reset();
-                    return;
-                }
+            ////判断是否还有文件
+            //if (name != "")
+            //{
+            //    int fileLength = upFile.PostedFile.ContentLength;//文件大小，单位byte
+            //    //string fileName = Path.GetFileName(upFile.PostedFile.FileName);//文件名称
+            //    //string newFileName = GetNewFileName(fileName);//新文件名
+            //    string extension = Path.GetExtension(upFile.PostedFile.FileName).ToLower();//文件扩展名
+            //    //限制上传文件最大不能超过500M  
+            //    if (!(fileLength < 512 * 1024 * 1024))
+            //    {
+            //        //Response.Write("<script>alert('文件最大不能超过500M！');</script>");
+            //        Alert.Show("文件最大不能超过500M！");
+            //        upFile.Reset();
+            //        return;
+            //    }
                
-                if (!".doc.docx.xls.xlsx.ppt.pdf.txt.jpg.jpeg.png.gif.bmp".Contains(extension))
-                {
+            //    if (!".doc.docx.xls.xlsx.ppt.pdf.txt.jpg.jpeg.png.gif.bmp".Contains(extension))
+            //    {
                   
-                    Alert.Show("不支持的文件格式！");
-                    upFile.Reset();
-                    return;
-                }
+            //        Alert.Show("不支持的文件格式！");
+            //        upFile.Reset();
+            //        return;
+            //    }
 
-                //文件路径
-                string path = "/uploadFile";
-                //本地路径
-                string localPath = Server.MapPath(Request.ApplicationPath + path);
-                //全路径
-                string fullPath = localPath + "\\" + name;
-                //string fullPathNew = localPath + "\\" + name;
-                this.upFile.SaveAs(fullPath);
-                //this.upFile.SaveAs(fullPathNew);
+            //    //文件路径
+            //    string path = "/uploadFile";
+            //    //本地路径
+            //    string localPath = Server.MapPath(Request.ApplicationPath + path);
+            //    //全路径
+            //    string fullPath = localPath + "\\" + name;
+            //    //string fullPathNew = localPath + "\\" + name;
+            //    this.upFile.SaveAs(fullPath);
+            //    //this.upFile.SaveAs(fullPathNew);
 
-                //准备上传文件
-                //Stream fileStream = null;
-                try
-                {
-                    if (".jpg.jpeg.png.gif.bmp".Contains(extension))
-                    {
-                        ftpURI = "FTPcs/pictures";//给定上传图片路径
-                    }
-                    fileStream = upFile.PostedFile.InputStream;//读取本地文件流
-                    string newfile = fileName;
+            //    //准备上传文件
+            //    Stream fileStream = null;
+            //    try
+            //    {
+            //        if (".jpg.jpeg.png.gif.bmp".Contains(extension))
+            //        {
+            //            ftpURI = "FTPcs/pictures";//给定上传图片路径
+            //        }
+            //        fileStream = upFile.PostedFile.InputStream;//读取本地文件流
+            //        string newfile = fileName;
 
-                    //HTTPHelper.setFilesToHttpWebServer("", "", "", "");
-                    var b = FtpWeb.Upload(ftpURI, newfile, fileLength, fileStream, out errorMsg);//开始上传
-                    if (b == true)
-                    {
-                        string newrul = fileName;//文件名
+            //        //HTTPHelper.setFilesToHttpWebServer("", "", "", "");
+            //        var b = FtpWeb.Upload(ftpURI, newfile, fileLength, fileStream, out errorMsg);//开始上传
+            //        if (b == true)
+            //        {
+            //            string newrul = fileName;//文件名
 
-                        string time = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");//时间
+            //            string time = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");//时间
 
-                        int di = url.LastIndexOf(".");
+            //            int di = url.LastIndexOf(".");
 
-                        string didi = url.Substring(di + 1);//扩展文件名
+            //            string didi = url.Substring(di + 1);//扩展文件名
 
-                        string zt = "已上传";//状态
-                        //设备图片上传表 model = new 设备图片上传表();
-                        //model.上传路径 = url;
-                        model.上传路径 = "/UploadFile/" + fileName;
-                        model.上传时间 = time;
-                        model.文件名 = newrul;
-                        model.文件后缀 = didi;
-                        model.上传状态 = zt;
-                        model.设备编号 = Grid1.SelectedRow.Values[4].ToString();
-                        上传文件_BLL bll = new 上传文件_BLL();
-                        int xx = bll.图片上传(model);
-                        if (xx >= 1)
-                        {
-                            if (xx == 1)
-                            {
+            //            string zt = "已上传";//状态
+            //            //设备图片上传表 model = new 设备图片上传表();
+            //            //model.上传路径 = url;
+            //            model.上传路径 = "/UploadFile/" + fileName;
+            //            model.上传时间 = time;
+            //            model.文件名 = newrul;
+            //            model.文件后缀 = didi;
+            //            model.上传状态 = zt;
+            //            model.设备编号 = Grid1.SelectedRow.Values[4].ToString();
+            //            上传文件_BLL bll = new 上传文件_BLL();
+            //            int xx = bll.图片上传(model);
+            //            if (xx >= 1)
+            //            {
+            //                if (xx == 1)
+            //                {
 
-                                string record = "修改";
-                                //modela.用户名= Request.QueryString["userName"];
-                                modela.用户名 = "admin";
-                                modela.操作类型 = record;
-                                modela.文件名 = oldName;
-                                modela.操作时间 = time;
-                                modela.设备编号 = Grid1.SelectedRow.Values[4].ToString();
-                                DataSet ds = wjczbll.插入设备文件操作记录(modela);
-                            }
-                            else if (xx == 2)
-                            {
-                                string record = "上传";
-                                //modela.用户名 = Request.QueryString["userName"];
-                                modela.用户名 = "admin";
-                                modela.操作类型 = record;
-                                modela.文件名 = oldName;
-                                modela.操作时间 = time;
-                                modela.设备编号 = Grid1.SelectedRow.Values[4].ToString();
-                                DataSet dsc = wjczbll.插入设备文件操作记录(modela);
-                            }
-                            window3.Hidden = true;
-                            upFile.Reset();
-                            Alert.Show("上传成功!", MessageBoxIcon.Success);
-                            imgPhoto.ImageUrl = "/res/images/blank.png";
-                        }
-                        else
-                        {
-                            Alert.Show("上传失败!", MessageBoxIcon.Warning);
-                            imgPhoto.ImageUrl = "/res/images/blank.png";
-                        }
-                    }
-                    else
-                    {
-                        Alert.Show("无法连接到远程服务器！！！", MessageBoxIcon.Warning);
-                    }
-                    #region
-                    //if (b)
-                    //{
-                    //    if (File.Exists(txtPath))
-                    //    {
-                    //        FileStream myStream = new FileStream(txtPath, FileMode.Append, FileAccess.Write);// FileMode.Append,追加一行数据
-                    //        StreamWriter sw = new StreamWriter(myStream);
-                    //        sw.WriteLine(ftpURI + "|" + name + "|" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + ";");//写入文件
-                    //        sw.Close();
+            //                    string record = "修改";
+            //                    //modela.用户名= Request.QueryString["userName"];
+            //                    modela.用户名 = "admin";
+            //                    modela.操作类型 = record;
+            //                    modela.文件名 = oldName;
+            //                    modela.操作时间 = time;
+            //                    modela.设备编号 = Grid1.SelectedRow.Values[4].ToString();
+            //                    DataSet ds = wjczbll.插入设备文件操作记录(modela);
+            //                }
+            //                else if (xx == 2)
+            //                {
+            //                    string record = "上传";
+            //                    //modela.用户名 = Request.QueryString["userName"];
+            //                    modela.用户名 = "admin";
+            //                    modela.操作类型 = record;
+            //                    modela.文件名 = oldName;
+            //                    modela.操作时间 = time;
+            //                    modela.设备编号 = Grid1.SelectedRow.Values[4].ToString();
+            //                    DataSet dsc = wjczbll.插入设备文件操作记录(modela);
+            //                }
+            //                window3.Hidden = true;
+            //                upFile.Reset();
+            //                Alert.Show("上传成功!", MessageBoxIcon.Success);
+            //                imgPhoto.ImageUrl = "/res/images/blank.png";
+            //            }
+            //            else
+            //            {
+            //                Alert.Show("上传失败!", MessageBoxIcon.Warning);
+            //                imgPhoto.ImageUrl = "/res/images/blank.png";
+            //            }
+            //        }
+            //        else
+            //        {
+            //            Alert.Show("无法连接到远程服务器！！！", MessageBoxIcon.Warning);
+            //        }
+            //        #region
+            //        //if (b)
+            //        //{
+            //        //    if (File.Exists(txtPath))
+            //        //    {
+            //        //        FileStream myStream = new FileStream(txtPath, FileMode.Append, FileAccess.Write);// FileMode.Append,追加一行数据
+            //        //        StreamWriter sw = new StreamWriter(myStream);
+            //        //        sw.WriteLine(ftpURI + "|" + name + "|" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + ";");//写入文件
+            //        //        sw.Close();
 
-                    //    }
+            //        //    }
 
-                    //    upFile.Reset();
-                    //    Alert.Show("上传成功！");
-                    //}
-                    //else
-                    //{                       
-                    //    Alert.Show("上传失败！");
-                    //}
-                    #endregion
-                }
-                catch (Exception ex)
-                {
-                    Alert.Show("上传失败！",MessageBoxIcon.Warning);
-                    imgPhoto.ImageUrl = "/res/images/blank.png";
-                }
-                finally
-                {
-                    if (fileStream != null) fileStream.Close();
-                }
-            }
-            else
-            {
-                upFile.Reset();
-                Alert.Show("请选择一个文件再上传！",MessageBoxIcon.Warning);
-            }
+            //        //    upFile.Reset();
+            //        //    Alert.Show("上传成功！");
+            //        //}
+            //        //else
+            //        //{                       
+            //        //    Alert.Show("上传失败！");
+            //        //}
+            //        #endregion
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        Alert.Show("上传失败！",MessageBoxIcon.Warning);
+            //        imgPhoto.ImageUrl = "/res/images/blank.png";
+            //    }
+            //    finally
+            //    {
+            //        if (fileStream != null) fileStream.Close();
+            //    }
+            //}
+            //else
+            //{
+            //    upFile.Reset();
+            //    Alert.Show("请选择一个文件再上传！",MessageBoxIcon.Warning);
+            //}
         }
 
         //获取随机文件名
